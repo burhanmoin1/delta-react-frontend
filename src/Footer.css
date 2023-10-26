@@ -1,0 +1,55 @@
+/* Footer.css */
+.footer {
+  background-color: black; /* Background color for the entire footer */
+  color: white; /* Text color for the entire footer */
+  padding: 5px; 
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 150px; /* Adjust the spacing between links */
+  padding-bottom: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white; /* Text color for the links */
+  font-weight: bold;
+}
+
+.company-description {
+  text-align: start; /* Center-align the company description */
+  margin-top: 1px;
+}
+
+.company-description h2 {
+  padding: 1px;
+  margin-top: -20px;
+  font-weight: 501;
+  font-style: initial;
+}
+
+.company-description p {
+  margin-right: 5px;
+
+}
+
+.company-info {
+  text-align: center; /* Center-align the company info */
+  margin-top: 20px; /* Add some top margin */
+}
+
+.company-info p {
+  font-size: 12px; /* Adjust the font size of the company info */
+}
+
+
+.register-button {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}

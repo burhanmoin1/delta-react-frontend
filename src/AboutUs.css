@@ -1,0 +1,23 @@
+.aboutus-container{
+    background-color:rgb(250, 249, 246);
+    border-top: 1px solid black; /* Add a black border */
+    padding: 30px; 
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.list-heads{
+    font-weight: 501;
+}
+
+.aboutus-container h2, h3 {
+    font-weight: 505;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
