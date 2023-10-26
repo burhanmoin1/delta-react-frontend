@@ -15,7 +15,7 @@ const SignUpForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8000/api/create-customer/', {
+      const response = await axios.post('http://deltacommunication.xyz/api/create-customer/', {
         name: name,
         email: email,
         phone_number: phoneNumber,

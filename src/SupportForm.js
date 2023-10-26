@@ -38,7 +38,7 @@ const SupportForm = () => {
     
     try {
        
-        const response = await axios.post('http://localhost:8000/api/customer-complaint/', dataToSend);
+        const response = await axios.post('http://deltacommunication.xyz/api/customer-complaint/', dataToSend);
 
             if (response.status === 201) {
                 console.log('Complaint submitted successfully!');
