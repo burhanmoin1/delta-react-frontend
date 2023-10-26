@@ -38,7 +38,7 @@ const SupportForm = () => {
     
     try {
        
-        const response = await axios.post('http://deltacommunication.xyz/api/customer-complaint/', dataToSend);
+        const response = await axios.post('http://django-env.eba-ydz2dsvi.eu-north-1.elasticbeanstalk.com/api/customer-complaint/', dataToSend);
 
             if (response.status === 201) {
                 console.log('Complaint submitted successfully!');
