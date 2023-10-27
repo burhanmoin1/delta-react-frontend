@@ -11,7 +11,7 @@
 .footer-links {
   display: flex;
   justify-content: flex-end;
-  gap: 150px; /* Adjust the spacing between links */
+  gap: 110px; /* Adjust the spacing between links */
   padding-bottom: 20px;
 }
 

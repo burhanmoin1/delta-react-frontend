@@ -15,7 +15,7 @@ const SignUpForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://django-env.eba-ydz2dsvi.eu-north-1.elasticbeanstalk.com/api/create-customer/', {
+      const response = await axios.post('https://backend.deltacommunication.xyz/api/create-customer/', {
         name: name,
         email: email,
         phone_number: phoneNumber,
@@ -33,7 +33,7 @@ const SignUpForm = () => {
 
   return (
     <div className="form-container">
-      <form className="form" onSubmit={handleSubmit}>
+      <form className="formsignup" onSubmit={handleSubmit}>
         <div className="sup-label">
           <h2 className="form-heading">Sign Up</h2>
           <p className="form-paragraph">Please fill in this form to create an account.</p>

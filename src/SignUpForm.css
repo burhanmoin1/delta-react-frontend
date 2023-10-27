@@ -15,8 +15,8 @@
   }
   
   /* Style the form to have a maximum width and margin */
-  .form {
-    max-width: 400px; /* Adjust the width as needed */
+  .formsignup {
+    max-width: 220px; /* Adjust the width as needed */
     margin: 0 auto; /* Center the form horizontally */
   }
   
@@ -34,13 +34,12 @@
   }
   
  .signup-button {
-    margin-top: 10px;
+    margin-top: 20px; 
     padding: 8px 16px;
     background-color: #007bff;
     color: white;
     border: none;
     border-radius: 4px;
-    margin-left: 65px;
     cursor: pointer;
   }
   
@@ -57,7 +56,6 @@
 .form-heading {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px; /* Adjust the margin as needed */
     color: #333; /* Adjust the color as needed */
   }
   
@@ -67,12 +65,4 @@
     color: #666; /* Adjust the color as needed */
   }
   
-.form-container,
-.form-heading,
-.form-paragraph,
-input,
-textarea,
-button {
-  font-family: 'Montserrat', sans-serif;
-}
 
