@@ -31,7 +31,6 @@ const Footer = () => {
           </Button>
         </Link>
         <p>Address: Plot no.23-F, 3rd floor Muhammad Ali Society, Karachi<br></br>&copy; 2023 Delta Communication Network. All rights reserved.</p>
-        <p>Made by Burhan ❤️</p>
       </div>        
     </footer>
   );

@@ -10,7 +10,7 @@
 
 .footer-links {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 110px; /* Adjust the spacing between links */
   padding-bottom: 20px;
 }
@@ -22,7 +22,7 @@
 }
 
 .company-description {
-  text-align: start; /* Center-align the company description */
+  text-align: center;
   margin-top: 1px;
 }
 
@@ -35,7 +35,6 @@
 
 .company-description p {
   margin-right: 5px;
-
 }
 
 .company-info {

@@ -5,7 +5,7 @@ import './RocketContainer.css';
 const pointsContent = [
   {
     pointText: 'Fiber at your doorstep',
-    content: 'Experience lightning-fast internet delivered to your doorstep for no charges.',
+    content: 'Experience lightning-fast internet delivered to your doorstep for no charges',
     iconClass: 'fas fa-wifi', // Wifi icon
   },
   {
@@ -15,12 +15,12 @@ const pointsContent = [
   },
   {
     pointText: 'Explore the cosmos',
-    content: 'Discover new horizons with our out-of-this-world connectivity.',
+    content: 'Discover new horizons with our out-of-this-world connectivity',
     iconClass: 'fas fa-globe', // Globe icon
   },
   {
     pointText: 'Unlimited possibilities',
-    content: 'With us, the sky is not the limit. It’s just the beginning.',
+    content: 'With us, the sky is not the limit. It’s just the beginning',
     iconClass: 'fas fa-calculator', // Calculator icon
   },
 ];
@@ -62,7 +62,7 @@ const RocketContainer = () => {
     // Create an interval to switch active points every 5 seconds
     const interval = setInterval(() => {
       setActivePoint((prevPoint) => (prevPoint + 1) % pointsContent.length);
-    }, 5000);
+    }, 2500);
 
     // Clean up the interval when the component unmounts
     return () => {
@@ -83,7 +83,7 @@ const RocketContainer = () => {
             className={`point ${index === activePoint ? 'active' : ''}`}
             onClick={() => setActivePoint(index)}
           >
-            <i className={`fas ${point.iconClass}`} style={{ opacity: '0.6' }}></i>
+            <i className={`fas ${point.iconClass}`} style={{ opacity: '0.9' }}></i>
             <span className="point-text">{point.pointText}</span>
             <div className="point-content">{point.content}</div>
           </div>
