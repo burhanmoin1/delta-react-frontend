@@ -23,19 +23,18 @@ function DeltaNavbar() {
     <Navbar expand="lg" className="bg-white">
       <Container className='Nav-bg'>
         <Navbar.Brand href="/">
-          {/* Use the Image component to display your logo */}
           <Image src={logo} className='dcn-logo'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link>
+          <Nav.Link className='cursor-link'>
           <Link to="/" className="nav-link">Home</Link> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link className='cursor-link'>
               <Link to="/support" className="nav-link">Support</Link> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link className='cursor-link'>
               <Link to="/aboutus" className="nav-link">About Us</Link> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
             <Link to="/signup">

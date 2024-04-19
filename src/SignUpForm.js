@@ -69,7 +69,7 @@ const SignUpForm = () => {
             onChange={(e) => setAddress(e.target.value)}
           />
         </div>
-        <div>
+        <div className='internet-value'>
           <select value={internetPackage} onChange={(e) => setInternetPackage(e.target.value)}>
             <option value="basic">Basic</option>
             <option value="standard">Standard</option>
@@ -77,7 +77,7 @@ const SignUpForm = () => {
             <option value="void">Void</option>
           </select>
         </div>
-        <div>
+        <div className='internet-value'>
           <select value={cablePackage} onChange={(e) => setCablePackage(e.target.value)}>
             <option value="cable">Yes</option>
             <option value="no-cable">No</option>
